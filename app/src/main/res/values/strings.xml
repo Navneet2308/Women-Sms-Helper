@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Women Sms Helper</string>
+    <string name="loc"><u> <b>YOUR LOCATION -</b></u> </string>
+    <string name="text1">Please Set Contacts for Help</string>
+</resources>

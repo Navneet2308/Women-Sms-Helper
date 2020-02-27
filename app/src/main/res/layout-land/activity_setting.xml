@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="@string/text1" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/back"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height=".1123dp"
+android:layout_marginLeft="20dp"
+       android:background="#212121"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/text1"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/text1">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            android:layout_below="@+id/head2"
+            android:id="@+id/head3"
+           >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Select Contact 1"
+                android:layout_margin="10dp"
+                android:background="#ffffff"
+                android:id="@+id/no3"
+                android:layout_height="30dp"></EditText>
+            <ImageView
+                android:layout_width="40dp"
+                android:src="@drawable/ic_contacts_black_24dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/find1"
+                android:layout_height="50dp"></ImageView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            android:id="@+id/head4"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Select Contact 2"
+                android:layout_margin="10dp"
+                android:background="#ffffff"
+                android:id="@+id/no2"
+                android:layout_height="30dp"></EditText>
+            <ImageView
+                android:layout_width="40dp"
+                android:src="@drawable/ic_contacts_black_24dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/find2"
+                android:layout_height="50dp"></ImageView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            android:id="@+id/head5"
+          >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Select Contact 3"
+                android:layout_margin="10dp"
+                android:background="#0000"
+                android:id="@+id/no1"
+                android:layout_height="30dp"></EditText>
+            <ImageView
+                android:layout_width="40dp"
+                android:src="@drawable/ic_contacts_black_24dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/find3"
+                android:layout_height="50dp"></ImageView></RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp"
+            android:background="#00BDF3"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET"
+                android:textColor="#00BdF3"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:id="@+id/set"
+                ></Button>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height=".1123dp"
+            android:background="#212121"
+            android:layout_below="@+id/text1"
+            ></TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:id="@+id/card2"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/rel1"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Enter Your name"
+                    android:layout_margin="10dp"
+                    android:background="#0000"
+                    android:id="@+id/user"
+                    android:layout_height="30dp"></EditText>
+
+               </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/namehint"
+android:textColor="#9e9e9e"
+            android:layout_below="@+id/user"
+            android:layout_marginTop="-10dp"
+            android:text="It will send with messages"></TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp"
+            android:background="#00BDF3"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET Name"
+                android:textColor="#00BdF3"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:id="@+id/setname"
+                ></Button>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height=".1123dp"
+            android:background="#212121"
+            android:layout_below="@+id/text1"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/lochint"
+            android:textColor="#9e9e9e"
+            android:layout_below="@+id/user"
+            android:text="With thsese messages your current location send automatically"></TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Enter First Message"
+                    android:layout_margin="10dp"
+                    android:background="#0000"
+                    android:id="@+id/msg1"
+                    android:layout_height="30dp"></EditText>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:hint="Enter Second Message"
+                    android:layout_margin="10dp"
+                    android:background="#0000"
+                    android:id="@+id/msg2"
+                    android:layout_height="30dp"></EditText>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="15dp"
+        >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:hint="Enter Third Message"
+                android:layout_margin="10dp"
+                android:background="#0000"
+                android:id="@+id/msg3"
+                android:layout_height="30dp"></EditText>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="15dp"
+            android:layout_margin="10dp"
+            android:background="#00BDF3"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SET Messages"
+                android:textColor="#00BdF3"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:id="@+id/setmsg"
+                ></Button>
+        </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+</RelativeLayout></ScrollView>
+</LinearLayout>
